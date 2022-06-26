@@ -16,6 +16,7 @@ public class HelloController {
         log.info("<><><><><><><><>  APPLICATION START !!!!  <><><><><><><><>");
         ModelAndView mav = new ModelAndView();
         mav.setViewName("index");
+
         return mav;
     }
 

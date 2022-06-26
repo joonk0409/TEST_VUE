@@ -1,3 +1,4 @@
+<!--
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Joonk!! Welcome to Your Vue.js App"/>
@@ -13,7 +14,8 @@ export default {
   }
 }
 </script>
-
+-->
+<!--
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -24,3 +26,9 @@ export default {
   margin-top: 60px;
 }
 </style>
+-->
+<template>
+  <div id="app">
+    <router-view></router-view>
+  </div>
+</template>
